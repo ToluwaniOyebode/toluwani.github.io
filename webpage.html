@@ -3,98 +3,142 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Toluwani's Personal Webpage</title>
+    <title>Toluwani Oyebode - Professional Webpage</title>
     <style>
         body {
             font-family: Arial, sans-serif;
+            line-height: 1.6;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
             color: #333;
+            background-color: #f4f4f4;
         }
         header {
-            background-color: #4CAF50;
-            color: white;
-            padding: 20px;
+            background-color: #333;
+            color: #fff;
+            padding: 1rem 0;
             text-align: center;
+        }
+        nav {
+            text-align: center;
+            padding: 1rem 0;
+            background-color: #4CAF50;
+        }
+        nav a {
+            margin: 0 1rem;
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
         }
         .container {
-            padding: 20px;
+            max-width: 1100px;
+            margin: 2rem auto;
+            padding: 0 2rem;
         }
-        .profile-picture {
-            width: 150px;
+        .about, .projects, .contact, .skills, .experience, .certifications {
+            background: #fff;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .profile-img {
+            max-width: 150px;
+            height: auto;
             border-radius: 50%;
+            display: block;
+            margin: 0 auto 1rem;
         }
-        .intro, .skills, .contact {
-            margin-bottom: 40px;
+        .section-img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
         }
         h2 {
-            border-bottom: 2px solid #4CAF50;
-            padding-bottom: 10px;
-        }
-        .skills ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        .skills li {
-            background: #e0e0e0;
-            margin: 5px 0;
-            padding: 10px;
-            border-radius: 5px;
-        }
-        .linkedin-button {
-            background-color: #0077B5;
-            color: white;
-            padding: 10px 20px;
-            text-decoration: none;
-            border-radius: 5px;
-            display: inline-block;
-        }
-        .linkedin-button:hover {
-            background-color: #005983;
-        }
-        .image-section {
-            text-align: center;
-        }
-        .image-section img {
-            width: 100%;
-            max-width: 600px;
-            border-radius: 10px;
-            margin-bottom: 20px;
+            color: #4CAF50;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Welcome to Toluwani's Webpage</h1>
+        <h1>Toluwani Oyebode</h1>
+        <p>Highly Skilled Student & Part-Time Developer</p>
     </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
     <div class="container">
-        <div class="intro">
+        <section id="about" class="about">
             <h2>About Me</h2>
-            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e" alt="Profile Picture" class="profile-picture">
-            <p>Hi! My name is Toluwani. I am a highly skilled student who is still learning and a part-time developer. I am passionate about technology and continuously improving my skills.</p>
-        </div>
-        <div class="skills">
-            <h2>Skills</h2>
-            <ul>
-                <li>Web Development</li>
-                <li>JavaScript</li>
-                <li>Python</li>
-                <li>HTML & CSS</li>
-                <li>React</li>
-            </ul>
-        </div>
-        <div class="contact">
+            <img src="https://images.unsplash.com/photo-1528744598421-b7b93e12df73" alt="Profile Picture" class="profile-img">
+            <p>Hello! I’m Toluwani Oyebode, a highly skilled student continuously learning and growing in the field of development. I balance my academic pursuits with a part-time role as a developer, where I apply my knowledge and skills in real-world projects.</p>
+        </section>
+        
+        <section id="skills" class="skills">
+            <h2>Technical Skills</h2>
+            <p><strong>Programming Languages:</strong> Python, JavaScript, SQL</p>
+            <p><strong>Mathematics:</strong> Statistical Analysis, Probability Theory, Mathematical Modelling</p>
+            <p><strong>Research:</strong> Data Collection, Data Analysis, Literature Review, Report Writing</p>
+            <p><strong>Networking:</strong> TCP/IP, DNS, Network Configuration, Cisco Routers/Switches</p>
+            <p><strong>Database Management:</strong> MySQL, MongoDB, PostgreSQL</p>
+            <p><strong>Software Development:</strong> Agile Methodologies, Scrum, Git</p>
+            <p><strong>Data Analysis:</strong> Excel, R, Tableau, Power BI</p>
+            <p><strong>Cybersecurity:</strong> Network Security, Penetration Testing, Incident Response</p>
+        </section>
+        
+        <section id="experience" class="experience">
+            <h2>Professional Experience</h2>
+            <h3>Data Analysis</h3>
+            <p>Utilize Python and SQL to analyze large datasets, identify trends, and generate actionable insights.</p>
+            <p>Conduct statistical analysis and mathematical modeling to support business decisions.</p>
+            <p>Collaborate with cross-functional teams to develop data-driven solutions for various projects.</p>
+            <p>Prepare comprehensive reports and presentations to communicate research findings and recommendations.</p>
+            
+            <h3>Network Engineering</h3>
+            <p>Designed, implemented, and maintained network infrastructure ensuring optimal performance and security.</p>
+            <p>Conducted regular network assessments and troubleshooting to resolve connectivity issues.</p>
+            <p>Configured and managed Cisco routers and switches to support business operations.</p>
+            <p>Collaborated with the cybersecurity team to implement network security protocols and mitigate risks.</p>
+            
+            <h3>Research</h3>
+            <p>Conducted extensive research on specific topics, collecting and analyzing data using various methodologies.</p>
+            <p>Authored research papers and presented findings at academic conferences.</p>
+            <p>Assisted in the design and execution of experiments, ensuring accurate data collection and analysis.</p>
+            <p>Utilized mathematical and statistical tools to interpret research results and draw meaningful conclusions.</p>
+        </section>
+        
+        <section id="projects" class="projects">
+            <h2>Projects</h2>
+            <img src="https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg" alt="Coding Image" class="section-img">
+            <h3>Machine Learning Model for Predictive Analysis</h3>
+            <p>Developed a machine learning model using Python to predict customer behavior based on historical data.</p>
+            <p>Achieved a high accuracy rate through rigorous testing and optimization.</p>
+        </section>
+        
+        <section id="contact" class="contact">
             <h2>Contact Me</h2>
-            <p>Feel free to reach out to me on LinkedIn.</p>
-            <a href="https://www.linkedin.com/in/ifeanyi-oyebode-06910a300" class="linkedin-button">Connect with me on LinkedIn</a>
-        </div>
-        <div class="image-section">
-            <h2>Gallery</h2>
-            <img src="https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg" alt="Code Image">
-            <img src="https://images.pexels.com/photos/374074/pexels-photo-374074.jpeg" alt="Laptop Image">
-            <img src="https://images.pexels.com/photos/1181271/pexels-photo-1181271.jpeg" alt="Teamwork Image">
-        </div>
+            <img src="https://images.unsplash.com/photo-1584533590603-0070c4d3dedd" alt="Contact Image" class="section-img">
+            <p>You can reach out to me via email at <a href="mailto:ifeanyi.oyebode@gmail.com">ifeanyi.oyebode@gmail.com</a></p>
+            <p>Or connect with me on <a href="https://www.linkedin.com/in/ifeanyi-oyebode-06910a300">LinkedIn</a></p>
+            <p>GitHub: <a href="https://github.com/ToluwaniOyebode">Toluwani Oyebode</a></p>
+        </section>
     </div>
+    <footer>
+        <p>&copy; 2024 Toluwani Oyebode</p>
+    </footer>
 </body>
 </html>
